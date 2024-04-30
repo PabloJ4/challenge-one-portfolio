@@ -248,10 +248,17 @@ title__div{
     background-color: var(--cor-backgroudancoras);
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 176px;
     height: 174px;
     justify-content: flex-end;
     padding: 1rem;
+}
+.hobbies__img{
+    width: 140px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -289,6 +296,7 @@ title__div{
 .academic__courses__list{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
         
 }
@@ -303,6 +311,11 @@ title__div{
 
 .academic__courses__item__img >img{
     margin: auto;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .academic__courses__item__title{
@@ -318,6 +331,47 @@ title__div{
 }
 
 /* experiência*/
+
+.experience{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor-de-titulosesub);
+    
+
+}
+
+.experience > h2{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.experience__box{
+    width: 100vw;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.experience__img{
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+.experiencie__box:nth-child(odd) {
+    flex-direction: row-reverse;
+    
+}
+
+
+
+/*
 
 .experience{
     max-width: 1136px;
@@ -350,10 +404,11 @@ title__div{
     gap: 1rem;
     
 }
+
 .experience__img{
     width: 400px;
     height: 300px;
-    
+    display: flex;
     padding: 40px;
     border-radius: 10%;
    
@@ -409,7 +464,7 @@ title__div{
     
 }
 
-
+*/
 
 /*Contato*/
 
@@ -446,6 +501,12 @@ title__div{
 
 .formcontato__form{
     margin-top: 1rem;
+}
+
+.formcontato__img{
+    width: 400px;
+    height: 300px;
+
 }
 
 .formcontato__form__input{
@@ -633,7 +694,7 @@ utilize como referência os breakpoints @media abaixo*/
 }
 
 .academic__courses__item__img>img {
-    height: 58px;
+    height: 54px;
 }
 
 .academic__courses__item__title {
