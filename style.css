@@ -441,16 +441,20 @@ title__div{
     color: var(--cor-de-titulosesub);
 }
 
-.experience__botao--repo{
+
+
+.experience__botao--repo > button{
     width: 116px;
     height: 51px;
-    background-color:#F5F5F5;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
+    background-color:var(--cor-backgroudancoras);
+    border-color: var(--cor-de-link);
+    color: var(--cor-de-titulosesub);
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 400;
     
 }
+
 
 .experience__botao--demo{
     width: 116px;
@@ -463,8 +467,26 @@ title__div{
     
     
 }
-
 */
+
+button{
+    width: 100px;
+    height: 25px;
+    background-color:var(--cor-backgroudancoras);
+    border-color: var(--cor-de-link);
+    color: var(--cor-de-titulosesub);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+button:hover{
+    color: var(--cor-de-fundo);
+}
+
+
 
 /*Contato*/
 

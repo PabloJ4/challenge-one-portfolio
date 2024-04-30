@@ -1,10 +1,7 @@
 //Seu JavaScript de validação aqui
+//Em densenvolvimento
+var nome =  document.getElementById("Nome");
 var email = document.getElementById("mail");
+var assunto = document.getElementById("Assunto");
 
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("spero um e-mail, querida!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+
